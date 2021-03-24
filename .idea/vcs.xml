@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code/pypoisson" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code/pypoisson/src/PoissonRecon_v6_13" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/utils-test/UMR" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/utils-test/UMR/external/neural_renderer" vcs="Git" />
   </component>

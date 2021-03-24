@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f63a90ca-4ea6-4d24-92c6-b2cf08e78c36" name="Default Changelist" comment="" />
+    <list default="true" id="f63a90ca-4ea6-4d24-92c6-b2cf08e78c36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/data/test_cub_cleaned.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/data/testval_cub_cleaned.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/data/train_cub_cleaned.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/data/val_cub_cleaned.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/scops/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/scops/mean_v.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/scops/semantic_seg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/scops/semantic_template.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/scops/semantic_template.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/scops/semantic_template.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/scops/vertices_idx/back_vertices.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/scops/vertices_idx/belly_vertices.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/scops/vertices_idx/head_vertices.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/scops/vertices_idx/neck_vertices.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/sfm/anno_test.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/sfm/anno_testval.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/sfm/anno_train.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/cub/sfm/anno_val.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/cachedir/snapshots/cub_net/pred_net_latest.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/cuda/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/cuda/create_texture_image.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/cuda/load_textures.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/cuda/soft_rasterize.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/cuda/voxelization.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/ambient_lighting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/directional_lighting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/face_vertices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/get_points_from_angles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/load_obj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/look.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/look_at.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/orthogonal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/perspective.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/projection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/save_obj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/soft_rasterize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/vertex_normals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/functional/voxelization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/lighting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/mesh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/rasterizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/renderer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/lib.linux-x86_64-3.7/soft_renderer/transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/temp.linux-x86_64-3.7/soft_renderer/cuda/create_texture_image_cuda.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/temp.linux-x86_64-3.7/soft_renderer/cuda/create_texture_image_cuda_kernel.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/temp.linux-x86_64-3.7/soft_renderer/cuda/load_textures_cuda.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/temp.linux-x86_64-3.7/soft_renderer/cuda/load_textures_cuda_kernel.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/temp.linux-x86_64-3.7/soft_renderer/cuda/soft_rasterize_cuda.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/temp.linux-x86_64-3.7/soft_renderer/cuda/soft_rasterize_cuda_kernel.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/temp.linux-x86_64-3.7/soft_renderer/cuda/voxelization_cuda.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/build/temp.linux-x86_64-3.7/soft_renderer/cuda/voxelization_cuda_kernel.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/dist/soft_renderer-1.0.0-py3.7-linux-x86_64.egg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/soft_renderer.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/soft_renderer.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/soft_renderer.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/soft_renderer.egg-info/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/SoftRas/soft_renderer.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils-test/UMR/external/neural_renderer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils-test/UMR" beforeDir="false" afterPath="$PROJECT_DIR$/utils-test/UMR" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils-test/UMR/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils-test/UMR/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils-test/UMR/demo_imgs/birdie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils-test/UMR/demo_imgs/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils-test/UMR/demo_imgs/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils-test/UMR/docs/images/teaser.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils-test/UMR/external/PerceptualSimilarity/data/image_folder.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils-test/UMR/external/PerceptualSimilarity/data/image_folder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils-test/UMR/external/neural_renderer/neural_renderer/rasterize.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils-test/UMR/external/neural_renderer/neural_renderer/rasterize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils-test/UMR/utils/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils-test/UMR/utils/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils-test/UMR/utils/transformations.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils-test/UMR/utils/transformations.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,5 +150,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
