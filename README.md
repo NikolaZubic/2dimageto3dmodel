@@ -21,3 +21,11 @@ Please, cite our paper if you find this code useful for your research.
   year={2021}
 }
 ```
+
+## License
+MIT
+
+## Acknowledgement
+This idea has been built based on the architecture of [Insafutdinov & Dosovitskiy](https://github.com/eldar/differentiable-point-clouds).<br>
+[Poisson Surface Reconstruction](https://github.com/mmolero/pypoisson) was used for Point Cloud to 3D Mesh transformation.<br>
+The GAN architecture (used for texture mapping) is a mixture of [Xian's TextureGAN](https://github.com/janesjanes/Pytorch-TextureGAN) and [Li's GAN](https://arxiv.org/abs/2101.10165).
