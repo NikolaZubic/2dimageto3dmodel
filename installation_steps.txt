@@ -1,0 +1,7 @@
+conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
+
+cd kaolin
+python setup.py install
+
+pip install --no-dependencies nuscenes-devkit opencv-python-headless scikit-learn joblib pyquaternion cachetools
+pip install packaging

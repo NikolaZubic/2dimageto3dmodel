@@ -1,0 +1,3 @@
+python main.py --dataset cub --batch_size 16 --weights pretrained_weights_cub --save_results
+
+python main.py --dataset p3d --batch_size 16 --weights pretrained_weights_p3d --save_results
