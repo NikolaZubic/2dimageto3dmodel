@@ -55,6 +55,20 @@ for the Pascal 3D+ Dataset.<br><br>
 
 The results will be saved at `2dimageto3dmodel/code/results/` path.
 
+## Continue training
+To continue the training process:<br>
+Run the following commands (without ```--save_results```) from the root/code/ (2dimageto3dmodel/code/) directory:<br>
+```
+python main.py --dataset cub --batch_size 16 --weights pretrained_weights_cub
+```
+for the CUB Birds Dataset.
+<br><br>
+```
+python main.py --dataset p3d --batch_size 16 --weights pretrained_weights_p3d
+```
+for the Pascal 3D+ Dataset.<br><br>
+
+
 ## License
 MIT
 
