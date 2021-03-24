@@ -22,6 +22,26 @@ Please, cite our paper if you find this code useful for your research.
 }
 ```
 
+## Prerequisites
+- Download code:<br>
+  Git clone the code with the following command:
+  ```
+  git clone https://github.com/NikolaZubic/2dimageto3dmodel.git
+  ```
+- Open the project with Conda Environment (Python 3.7)
+
+- Install packages:
+  ```
+  conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch
+  ```
+  Then git clone Kaolin library in the root (2dimageto3dmodel) folder with the following [commit](https://github.com/NVIDIAGameWorks/kaolin/tree/e7e513173bd4159ae45be6b3e156a3ad156a3eb9) and run the following commands:
+  ```
+  cd kaolin
+  python setup.py install
+  pip install --no-dependencies nuscenes-devkit opencv-python-headless scikit-learn joblib pyquaternion cachetools
+  pip install packaging
+  ```
+
 ## License
 MIT
 
