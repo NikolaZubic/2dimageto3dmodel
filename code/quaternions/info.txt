@@ -1,0 +1,15 @@
+We use quaternions in 3D Computer Graphics for simultaneous multiple axis rotation, instead of a sequential approach
+with the use of matrix rotation.
+For example, if we want to rotate 45 degrees about the xy-axis using the matrix rotation, we would need to first rotate
+about the x-axis and then rotate about the y-axis (quaternions eliminate sequential flow).
+
+Advantages of quaternions over matrix rotations:
+1. Matrix rotations lose one degree of freedom in a 3D space when we rotate it sequentially
+2. Quaternions are computationally more efficient (faster computation than matrices)
+
+Quaternion representation.
+q = [s, v] , where s is a scalar number and v is a vector that represents an axis.
+Actually, quaternion is a sum of scalar and vector and q on itself is neither vector or scalar and allows us to
+freely rotate the 3D object around a fixed axis.
+
+Author: Nikola Zubic

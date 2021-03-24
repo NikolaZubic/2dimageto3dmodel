@@ -1,0 +1,8 @@
+newmtl mesh_15
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0
+illum 1
+map_Ka mesh_15.png
+map_Kd mesh_15.png
