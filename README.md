@@ -12,6 +12,8 @@ University of Novi Sad &nbsp; University of Cambridge
 ![](https://raw.githubusercontent.com/NikolaZubic/2dimageto3dmodel/main/images/pascal_3d/pretrained_weights_p3d.png)
 
 ## Citation
+Besides AIAI 2021, our paper is in a Springer's book entitled "Artificial Intelligence Applications and Innovations": [link](https://link.springer.com/chapter/10.1007%2F978-3-030-79150-6_25)
+<br><br>
 Please, cite our paper if you find this code useful for your research.
 ```
 @article{zubic2021effective,
