@@ -39,6 +39,7 @@ Please, cite our paper if you find this code useful for your research.
   Then git clone Kaolin library in the root (2dimageto3dmodel) folder with the following [commit](https://github.com/NVIDIAGameWorks/kaolin/tree/e7e513173bd4159ae45be6b3e156a3ad156a3eb9) and run the following commands:
   ```
   cd kaolin
+  git checkout e7e513173b
   python setup.py install
   pip install --no-dependencies nuscenes-devkit opencv-python-headless scikit-learn joblib pyquaternion cachetools
   pip install packaging
