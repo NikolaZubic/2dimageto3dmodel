@@ -70,7 +70,6 @@ for the CUB Birds Dataset.
 python main.py --dataset p3d --batch_size 16 --weights pretrained_weights_p3d
 ```
 for the Pascal 3D+ Dataset.<br><br>
-
 ## Generation of Pseudo-ground-truths
 In these reconstruction steps, we need a trained mesh estimation model. We can use the pre-trained model (already provided) or train it from scratch. The Pseudo-ground-truth data for CUB birds is generated in the following way:
 ```
