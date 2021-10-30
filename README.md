@@ -80,7 +80,27 @@ For Pascal 3D+ dataset:
 ```
 python run_reconstruction.py --name pretrained_reconstruction_p3d --dataset p3d --optimize_z0 --batch_size 10 --generate_pseudogt
 ```
+Through this, we replace a cache directory, which contains pre-computed statistics for the evaluation of Frechet Inception Distances, poses and images metadata, and the Pseudo-ground-truths for each image.
 
+## Mesh generator training from scratch
+Set up the Pseudo-ground-truth data as described in the section above, then execute the following command:
+```
+python main.py --name cub_512x512_class --conditional_class --dataset cub --gpu_ids 0,1,2,3 --batch_size 32 --epochs 1000 --tensorboard
+```
+Here, we train a CUB birds model, conditioned on class labels, for 1000 epochs. Every 20 epochs, we have FID evaluations (which can be changed with `--evaluate_freq`). Usage of different numbers of GPUs can produce slightly different results. Tensorboard allows us to export the results in Tensorboard's log directory `tensorboard_gan`.
+
+After training, we can find the best model's checkpoint with the following command:
+```
+python main.py --name cub_512x512_class --conditional_class --dataset cub --gpu_ids 0,1,2,3 --batch_size 64 --evaluate --which_epoch best
+```
+
+## Mesh estimation model training
+Use the following two commands for training from scratch:
+```
+python run_reconstruction.py --name pretrained_reconstruction_cub --dataset cub --batch_size 50 --tensorboard
+python run_reconstruction.py --name pretrained_reconstruction_p3d --dataset p3d --optimize_z0 --batch_size 50 --tensorboard
+```
+Tensorboard log files are saved in `tensorboard_recon`.
 
 ## License
 MIT
