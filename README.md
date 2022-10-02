@@ -1,5 +1,7 @@
 # An Effective Loss Function for Generating 3D Models from Single 2D Image without Rendering
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/an-effective-loss-function-for-generating-3d/single-view-3d-reconstruction-on-shapenet)](https://paperswithcode.com/sota/single-view-3d-reconstruction-on-shapenet?p=an-effective-loss-function-for-generating-3d)
+
 ### [Papers with code](https://paperswithcode.com/paper/an-effective-loss-function-for-generating-3d) | [Paper](https://arxiv.org/abs/2103.03390)
 
 [Nikola Zubić](https://www.linkedin.com/in/nikola-zubi%C4%87-50458b18b/) &nbsp; [Pietro Lio](https://www.cl.cam.ac.uk/~pl219/) &nbsp;
