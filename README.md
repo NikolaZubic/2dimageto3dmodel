@@ -18,11 +18,20 @@ Besides AIAI 2021, our paper is in a Springer's book entitled "Artificial Intell
 <br><br>
 Please, cite our paper if you find this code useful for your research.
 ```
-@article{zubic2021effective,
-  title={An Effective Loss Function for Generating 3D Models from Single 2D Image without Rendering},
-  author={Zubi{\'c}, Nikola and Li{\`o}, Pietro},
-  journal={arXiv preprint arXiv:2103.03390},
-  year={2021}
+@InProceedings{10.1007/978-3-030-79150-6_25,
+author="Zubi{\'{c}}, Nikola
+and Li{\`o}, Pietro",
+editor="Maglogiannis, Ilias
+and Macintyre, John
+and Iliadis, Lazaros",
+title="An Effective Loss Function for Generating 3D Models from Single 2D Image Without Rendering",
+booktitle="Artificial Intelligence Applications and Innovations",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="309--322",
+abstract="Differentiable rendering is a very successful technique that applies to a Single-View 3D Reconstruction. Current renderers use losses based on pixels between a rendered image of some 3D reconstructed object and ground-truth images from given matched viewpoints to optimise parameters of the 3D shape.",
+isbn="978-3-030-79150-6"
 }
 ```
 
